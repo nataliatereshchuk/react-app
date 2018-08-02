@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Hello from './Hello';
+import FullPage from './components/common/FullPage';
 
 debugger;
 ReactDOM.render(
-    <Hello name="World"/>,
+    <FullPage/>,
     document.getElementById("app"));
