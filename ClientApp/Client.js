@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import FullPage from './components/common/FullPage';
+import {BrowserRouter as Router, browserHistory} from 'react-router-dom';
 
-debugger;
 ReactDOM.render(
-    <FullPage/>,
+    <Router history={browserHistory}>
+        <FullPage/>
+    </Router>,
     document.getElementById("app"));
