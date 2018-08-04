@@ -14,7 +14,6 @@ app.get('*', (req, res) => {
     } else {
         res.send(Renderer(req).htmlcode)
     }
-
 });
 
 app.listen(3040, function() {

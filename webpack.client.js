@@ -1,6 +1,6 @@
 var path = require('path');
 var merge = require('webpack-merge');
-var baseConfig = require('webpack.base');
+var baseConfig = require('./webpack.base');
 
 const APP_DIR = path.resolve(__dirname, 'ClientApp');
 const PUBLIC_DIR = path.resolve(__dirname, 'public');
